@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | LMS</title>
+    <link rel="stylesheet" href="About.css">
+</head>
+<body>
+    <header class="header">
+        <h1>About Our Learning Management System</h1>
+        <p>Empowering Education with Technology</p>
+    </header>
+
+    <!-- Navigation Buttons -->
+    <section class="navigation">
+        <button onclick="navigateTo('dashboard.html')">Dashboard</button>
+        <button onclick="navigateTo('course_creation.html')">Course Creation</button>
+        <button onclick="navigateTo('progress.html')">Student Progress</button>
+        <button onclick="navigateTo('teacher_tracker.html')">Teacher Tracker</button>
+        <button onclick="navigateTo('quiz.html')">Quizzes</button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Our Learning Management System</h2>
+        <p>
+            Our Learning Management System (LMS) provides a seamless experience for both educators and learners.
+            Designed to empower education, our platform offers a wide range of features that allow students to
+            access course materials, track their progress, and communicate with their teachers. Teachers can easily
+            manage courses, grade assignments, and provide feedback to students, while administrators can monitor
+            the overall progress of the institution.
+        </p>
+
+        <h3>Key Features</h3>
+        <ul>
+            <li><strong>Dashboard:</strong> A centralized location to view course and student data.</li>
+            <li><strong>Course Creation:</strong> Create and manage courses easily.</li>
+            <li><strong>Student Progress:</strong> Track student performance in real-time.</li>
+            <li><strong>Teacher Tracker:</strong> Monitor and evaluate teacher performance.</li>
+            <li><strong>Quizzes:</strong> Create, assign, and grade quizzes to test student knowledge.</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Learning Management System | Empowering Education Everywhere</p>
+    </footer>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
